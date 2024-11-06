@@ -40,7 +40,7 @@ const Footer = () => (
         </div>
       </div>
       <div className="mt-8 flex justify-between items-center">
-        <p className="text-gray-600">©2021 House & Home. All rights reserved</p>
+        <p className="text-gray-600">©2024 House & Home. All rights reserved</p>
         <div className="flex space-x-4">
           <Facebook className="w-6 h-6 text-gray-600" />
           <Instagram className="w-6 h-6 text-gray-600" />

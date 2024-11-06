@@ -20,13 +20,16 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-      <html lang="en">
-        <body
-          className={`${geistSans.variable} ${geistMono.variable} antialiased`}
-        >
-          {children}
-        </body>
-      </html>
+    <html lang="en">
+      <body className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
+        {/* Under Construction Alert */}
+        <div style={{ backgroundColor: 'yellow', color: 'black', textAlign: 'center', padding: '10px', fontSize: '16px' , position: 'fixed', zIndex: '100', width: '100%'}}>
+          🚧 This website is currently under construction. 🚧
+        </div>
 
+        {children}
+      </body>
+    </html>
   );
 }
+
