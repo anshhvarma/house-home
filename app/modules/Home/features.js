@@ -2,6 +2,8 @@ import React from 'react';
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { PlayCircle, Home, Percent, Users, DollarSign } from "lucide-react";
+import Hero6 from '@/components/assests/hero6.png'
+import Image from 'next/image';
 
 const FeatureSection = () => {
   return (
@@ -10,10 +12,10 @@ const FeatureSection = () => {
       <div className="grid lg:grid-cols-2 gap-12 items-center">
         <div className="relative">
           <div className="bg-violet-100 rounded-2xl overflow-hidden">
-            <img 
-              src="/api/placeholder/600/400" 
-              alt="House exterior" 
-              className="w-full h-full object-cover"
+            <Image
+            src={Hero6} 
+            alt="House exterior" 
+            className="w-full h-full object-cover"
             />
           </div>
           
